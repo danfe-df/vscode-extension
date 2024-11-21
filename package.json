@@ -1,8 +1,9 @@
 {
   "name": "danfe",
-  "displayName": "danfe",
+  "displayName": "Danfe",
   "description": "Danfe syntax highlighter",
   "version": "0.0.1",
+  
   "engines": {
     "vscode": "^1.95.0"
   },
@@ -11,6 +12,7 @@
   ],
   "repository": "https://github.com/danfe-df/vscode-extension",
   "icon": "assets/df_rounded_more.png",
+  "publisher": "Sairash",
   "contributes": {
     "languages": [{
       "id": "danfe",
