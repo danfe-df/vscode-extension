@@ -1,0 +1,26 @@
+{
+  "name": "danfe",
+  "displayName": "danfe",
+  "description": "Danfe syntax highlighter",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "icon": "assets/df_rounded_more.png",
+  "contributes": {
+    "languages": [{
+      "id": "danfe",
+      "aliases": ["Danfe", "danfe"],
+      "extensions": [".df"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "danfe",
+      "scopeName": "source.danfe",
+      "path": "./syntaxes/danfe.tmLanguage.json"
+    }]
+  }
+}
