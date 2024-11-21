@@ -54,7 +54,7 @@
         "controls": {
             "patterns": [
                 {
-                    "match": "\\b(if|else|for|loop|ghum|todh|xod|pathau|break|continue|return|yedi|natra)\\b",
+                    "match": "\\b(if|else|for|loop|ghum|todh|xod|pathau|break|continue|return|yedi|natra|in|break|continue|else|if|false|nil|v|loop|for|return|endv|thik|bethik|khali|del|hatau|null|sunna|function|import|karya|prayog|as|naam|__module__|__args__|assert|panic)\\b",
                     "name": "keyword.control.danfe"
                 }
             ]
@@ -72,14 +72,6 @@
                 {
                     "match": "[a-zA-Z][a-zA-Z0-9_.]*",
                     "name": "identifier.danfe"
-                }
-            ]
-        },
-        "keywords": {
-            "patterns": [
-                {
-                    "match": "\\b(in|break|continue|else|if|false|nil|v|loop|for|return|endv|thik|bethik|khali|del|hatau|null|sunna|function|import|karya|prayog|as|naam|__module__|__args__|print|println|input|assert|panic)\\b",
-                    "name": "keyword.danfe"
                 }
             ]
         },
