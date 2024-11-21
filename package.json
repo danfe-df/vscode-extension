@@ -9,6 +9,7 @@
   "categories": [
     "Programming Languages"
   ],
+  "repository": "https://github.com/danfe-df/vscode-extension",
   "icon": "assets/df_rounded_more.png",
   "contributes": {
     "languages": [{
@@ -21,6 +22,13 @@
       "language": "danfe",
       "scopeName": "source.danfe",
       "path": "./syntaxes/danfe.tmLanguage.json"
-    }]
+    }],
+    "iconThemes": [
+      {
+        "id": "dfIconTheme",
+        "label": "DF File Icon Theme",
+        "path": "./icon-defination.json"
+      }
+    ]
   }
 }

@@ -1,0 +1,14 @@
+{
+    "iconDefinitions": {
+      "dfFileIcon": {
+        "iconPath": "./assets/df_rounded_more.png"
+      }
+    },
+    "fileExtensions": {
+      "df": "dfFileIcon"
+    },
+    "fileNames": {},
+    "folderNames": {},
+    "folderNamesExpanded": {}
+  }
+  
