@@ -18,19 +18,16 @@
       "id": "danfe",
       "aliases": ["Danfe", "danfe"],
       "extensions": [".df"],
-      "configuration": "./language-configuration.json"
+      "configuration": "./language-configuration.json",
+      "icon": {
+        "light": "./assets/df_file_ext.png",
+        "dark": "./assets/df_file_ext.png"
+      }
     }],
     "grammars": [{
       "language": "danfe",
       "scopeName": "source.danfe",
       "path": "./syntaxes/danfe.tmLanguage.json"
-    }],
-    "iconThemes": [
-      {
-        "id": "dfIconTheme",
-        "label": "DF File Icon Theme",
-        "path": "./icon-defination.json"
-      }
-    ]
+    }]
   }
 }
